@@ -360,7 +360,7 @@ footer.middle {
           justify-content: space-between;
 }
 
-.project-bgImg-container .projects_bio-image {
+.project-bgImg-container .projects__bio-image {
   margin-bottom: 0.5rem;
   text-align: center;
 }
@@ -381,8 +381,8 @@ footer.middle {
 
 .projects__item {
   width: 100%;
-  cursor: pointer;
   border-bottom: 5px solid #ff652f;
+  cursor: pointer;
   position: relative;
 }
 
@@ -392,11 +392,11 @@ footer.middle {
 
 .projects__item::after {
   content: "";
+  position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #ff652f;
-  position: absolute;
   left: 0;
+  background: #ff652f;
   opacity: 0;
   -webkit-transition: all 1s;
   transition: all 1s;
